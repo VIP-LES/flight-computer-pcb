@@ -5610,7 +5610,7 @@
 			)
 		)
 	)
-	(global_label "GPIO09.SPI0{slash}MISO"
+	(global_label "GPIO9{slash}SPI0.MISO"
 		(shape input)
 		(at 127 170.18 0)
 		(fields_autoplaced yes)
@@ -5622,7 +5622,7 @@
 		)
 		(uuid "9ef75aee-30b7-4403-b4e4-e83598c01763")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.7048 170.18 0)
+			(at 146.4953 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
