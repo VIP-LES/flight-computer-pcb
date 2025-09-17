@@ -4419,12 +4419,24 @@
 		(uuid "f76f58c1-7687-46fb-8e7b-478cd96059d4")
 	)
 	(no_connect
+		(at 128.27 52.07)
+		(uuid "4b8f7f37-add4-451c-8afd-621c506dacfb")
+	)
+	(no_connect
 		(at 24.13 67.31)
 		(uuid "6798a973-1886-4b15-a269-4ad739694865")
 	)
 	(no_connect
+		(at 128.27 54.61)
+		(uuid "c53a2efc-b231-490c-af55-fc20784fffe1")
+	)
+	(no_connect
 		(at 54.61 64.77)
 		(uuid "e72ad76d-e058-452f-b288-46da0ec6e534")
+	)
+	(no_connect
+		(at 128.27 49.53)
+		(uuid "ee0c1d10-933d-427b-896f-80a6302ec2e6")
 	)
 	(no_connect
 		(at 24.13 64.77)
