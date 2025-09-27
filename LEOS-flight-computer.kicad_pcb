@@ -6378,7 +6378,7 @@
 	(footprint "CustomFootprints:BatteryHolder_SMD_MYOUNG_BS-08-B2AA010-R"
 		(layer "F.Cu")
 		(uuid "d1bead79-4940-4c88-a18b-667a2bded7d6")
-		(at 116 124.5)
+		(at 115.5 122.5)
 		(property "Reference" "BT1"
 			(at -0.5 -8.677 0)
 			(layer "F.SilkS")
@@ -12320,20 +12320,20 @@
 		(uuid "97055bf5-71f5-460c-b434-a5218caab80d")
 	)
 	(segment
-		(start 128.075 125)
-		(end 136.42 125)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 49)
-		(uuid "a42c9736-58c5-42d6-bf69-6de1accc9993")
-	)
-	(segment
-		(start 136.42 125)
+		(start 133.92 122.5)
 		(end 139.92 128.5)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 49)
-		(uuid "e7c949c6-aa13-4496-894f-fa54f9cf3cea")
+		(uuid "b07912e2-5bfb-4c20-89b3-e56f7577388b")
+	)
+	(segment
+		(start 126.575 122.5)
+		(end 133.92 122.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 49)
+		(uuid "ef1ca81c-bd76-4b9b-9051-9005fc0cfd1d")
 	)
 	(via
 		(at 141.08 128.5)

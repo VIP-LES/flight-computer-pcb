@@ -4512,7 +4512,7 @@
 		(uuid "8630440c-4056-48bb-a16a-7a790dfad507")
 	)
 	(junction
-		(at 153.67 27.94)
+		(at 154.94 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b656938-a89f-48bd-af40-c9904370a20f")
@@ -4717,7 +4717,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 25.4) (xy 153.67 27.94)
+			(xy 154.94 25.4) (xy 154.94 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5367,7 +5367,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 27.94) (xy 153.67 29.21)
+			(xy 154.94 27.94) (xy 154.94 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5707,7 +5707,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 25.4) (xy 153.67 25.4)
+			(xy 143.51 25.4) (xy 154.94 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7230,7 +7230,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 153.67 34.29 0)
+		(at 154.94 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7238,7 +7238,7 @@
 		(dnp no)
 		(uuid "144d1ebc-f73f-44fd-be35-c36d77d5d759")
 		(property "Reference" "BT1"
-			(at 156.972 31.242 0)
+			(at 158.242 31.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7247,7 +7247,7 @@
 			)
 		)
 		(property "Value" "CR2032_Battery_Cell"
-			(at 156.972 34.29 0)
+			(at 158.242 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7256,7 +7256,7 @@
 			)
 		)
 		(property "Footprint" "CustomFootprints:BatteryHolder_SMD_MYOUNG_BS-08-B2AA010-R"
-			(at 153.67 32.766 90)
+			(at 154.94 32.766 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7265,7 +7265,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 32.766 90)
+			(at 154.94 32.766 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7274,7 +7274,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 153.67 34.29 0)
+			(at 154.94 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7373,7 +7373,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 153.67 27.94 270)
+		(at 154.94 27.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7382,7 +7382,7 @@
 		(fields_autoplaced yes)
 		(uuid "206578b2-e4df-4400-8b76-61cbb9f6856e")
 		(property "Reference" "#FLG04"
-			(at 155.575 27.94 0)
+			(at 156.845 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7391,7 +7391,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 157.48 27.9399 90)
+			(at 158.75 27.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7400,7 +7400,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 27.94 0)
+			(at 154.94 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7409,7 +7409,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 27.94 0)
+			(at 154.94 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7418,7 +7418,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 153.67 27.94 0)
+			(at 154.94 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7707,7 +7707,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 36.83 0)
+		(at 154.94 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7716,7 +7716,7 @@
 		(fields_autoplaced yes)
 		(uuid "2eb6c8ff-b008-4f3a-866a-78e5685105ca")
 		(property "Reference" "#PWR025"
-			(at 153.67 43.18 0)
+			(at 154.94 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7725,7 +7725,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 41.91 0)
+			(at 154.94 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7733,7 +7733,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 36.83 0)
+			(at 154.94 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7742,7 +7742,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 36.83 0)
+			(at 154.94 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7751,7 +7751,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 36.83 0)
+			(at 154.94 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
