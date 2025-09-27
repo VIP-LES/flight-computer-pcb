@@ -7236,10 +7236,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "144d1ebc-f73f-44fd-be35-c36d77d5d759")
 		(property "Reference" "BT1"
-			(at 157.48 31.1784 0)
+			(at 156.972 31.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7247,8 +7246,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Battery_Cell"
-			(at 157.48 33.7184 0)
+		(property "Value" "CR2032_Battery_Cell"
+			(at 156.972 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7256,7 +7255,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_LINX_BAT-HLD-012-SMT"
+		(property "Footprint" "CustomFootprints:BatteryHolder_SMD_MYOUNG_BS-08-B2AA010-R"
 			(at 153.67 32.766 90)
 			(effects
 				(font
