@@ -7306,6 +7306,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "BS-08-B2AA010-R"
+			(at 144.78 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MYOUNG"
+			(at 144.78 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4fcff95e-2701-4940-affd-c8cc1a38ffca")
 		)
@@ -8482,6 +8500,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "  PPTC061LGBN-RC"
+			(at 121.92 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sullins Connectors"
+			(at 121.92 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "c99fe3d8-cd9e-417d-b859-3c105456afcd")
 		)
@@ -8688,6 +8724,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 220.98 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCT06030C4701FP500"
+			(at 220.98 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
 			(at 220.98 48.26 0)
 			(effects
 				(font
@@ -8911,6 +8965,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 212.09 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCT06030C4701FP500"
+			(at 212.09 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
 			(at 212.09 48.26 0)
 			(effects
 				(font
@@ -9796,6 +9868,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SAM-M8Q-0"
+			(at 138.43 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "u-blox"
+			(at 138.43 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "19"
 			(uuid "8d97c59b-3fde-46fc-a9a0-35765c42935b")
 		)
@@ -10478,6 +10568,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 121.92 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "  PPTC041LGBN-RC"
+			(at 121.92 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sullins Connectors"
 			(at 121.92 149.86 0)
 			(effects
 				(font
