@@ -7087,6 +7087,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "GRM033R60J474KE90D"
+			(at 72.39 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 72.39 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c35916d1-c33d-4cfb-811b-c9d2c1473182")
 		)
@@ -7356,6 +7374,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "43650-0411 "
+			(at 43.18 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 43.18 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "23983752-07f8-4745-8609-b3cec02ce232")
 		)
@@ -7461,7 +7497,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "34pF"
+		(property "Value" "33pF"
 			(at 166.624 68.326 0)
 			(effects
 				(font
@@ -7489,6 +7525,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 166.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM1885C1H330JA01D"
+			(at 166.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
 			(at 166.37 66.04 0)
 			(effects
 				(font
@@ -8069,6 +8123,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM0335C1E120JA01D"
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
 			(at 88.9 63.5 0)
 			(effects
 				(font
@@ -8759,6 +8831,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "GRT033R60J105ME13D"
+			(at 29.21 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 29.21 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ac25f9f0-1b56-4d0d-8130-b98e54b90a2d")
 		)
@@ -8890,6 +8980,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 21.59 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033C71C104KE14D"
+			(at 21.59 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
 			(at 21.59 90.17 0)
 			(effects
 				(font
@@ -9063,7 +9171,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 uF"
+		(property "Value" "0.1uF"
 			(at 128.524 37.846 0)
 			(effects
 				(font
@@ -9091,6 +9199,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 128.27 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033C71C104KE14D"
+			(at 128.27 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
 			(at 128.27 35.56 0)
 			(effects
 				(font
@@ -9263,7 +9389,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "34pF"
+		(property "Value" "33pF"
 			(at 160.274 68.072 0)
 			(effects
 				(font
@@ -9291,6 +9417,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 160.02 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM1885C1H330JA01D"
+			(at 160.02 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
 			(at 160.02 66.04 0)
 			(effects
 				(font
@@ -9491,6 +9635,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 53.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRT033R60J105ME13D"
+			(at 53.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
 			(at 53.34 38.1 0)
 			(effects
 				(font
@@ -9757,6 +9919,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "GRM033C71C104KE14D"
+			(at 57.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 57.15 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "64ec55fc-a4ca-4123-aa17-20a54d9b7ff5")
 		)
@@ -9884,6 +10064,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 73.66 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM0335C1E120JA01D"
+			(at 73.66 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
 			(at 73.66 55.88 0)
 			(effects
 				(font
@@ -10028,6 +10226,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "  MCP2562FDT-H/SN"
+			(at 38.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip"
+			(at 38.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "a2bc2446-8592-4a40-8b44-e4bd40ef5806")
 		)
@@ -10110,6 +10326,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 81.28 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033C71C104KE14D"
+			(at 81.28 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
 			(at 81.28 152.4 0)
 			(effects
 				(font
@@ -10461,6 +10695,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "43650-0411 "
+			(at 43.18 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 43.18 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "37601231-4879-47f7-8eb1-2d0491362ea7")
 		)
@@ -10528,6 +10780,24 @@
 			)
 		)
 		(property "Description" "External CAN FD Controller with SPI Interface"
+			(at 39.37 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip"
+			(at 39.37 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " MCP2518FDT-E/SL"
 			(at 39.37 60.96 0)
 			(effects
 				(font
@@ -10906,6 +11176,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 45.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM033C71C104KE14D"
+			(at 45.72 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
 			(at 45.72 38.1 0)
 			(effects
 				(font
