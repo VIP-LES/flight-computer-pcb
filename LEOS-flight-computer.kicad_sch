@@ -7918,7 +7918,7 @@
 		(at 245.11 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8113,7 +8113,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "18pF"
 			(at 89.408 65.786 0)
 			(effects
 				(font
@@ -8149,7 +8149,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM0335C1E120JA01D"
+		(property "MPN" "GRM1885C1H180GA01D"
 			(at 88.9 63.5 0)
 			(effects
 				(font
@@ -8885,7 +8885,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRT033R60J105ME13D"
+		(property "MPN" "GRM188C81E105KAADD"
 			(at 29.21 90.17 0)
 			(effects
 				(font
@@ -9715,7 +9715,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRT033R60J105ME13D"
+		(property "MPN" "GRM188C81E105KAADD"
 			(at 53.34 38.1 0)
 			(effects
 				(font
@@ -10126,7 +10126,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "18pF"
 			(at 73.914 58.42 0)
 			(effects
 				(font
@@ -10162,7 +10162,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM0335C1E120JA01D"
+		(property "MPN" "GRM1885C1H180GA01D"
 			(at 73.66 55.88 0)
 			(effects
 				(font
@@ -10316,7 +10316,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "  MCP2562FDT-H/SN"
+		(property "MPN" "MCP2562FDT-H/SN"
 			(at 38.1 106.68 0)
 			(effects
 				(font
@@ -10686,7 +10686,7 @@
 		(at 63.5 191.77 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "cd027b07-2119-4983-92a9-7166f7001e0a")
@@ -10905,7 +10905,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " MCP2518FDT-E/SL"
+		(property "MPN" "MCP2518FDT-E/SL"
 			(at 39.37 60.96 0)
 			(effects
 				(font
@@ -11077,6 +11077,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 82.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ECS-400-12-33Q-JEN-TR "
+			(at 82.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ECS"
 			(at 82.55 59.69 0)
 			(effects
 				(font
