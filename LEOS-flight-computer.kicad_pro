@@ -564,10 +564,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "/home/matthewlyon/Projects/LEOS-stack-template/LEOS-stack-template-rd1/",
-      "pos_files": "",
+      "plot": "./",
+      "pos_files": "./",
       "specctra_dsn": "",
-      "step": "",
+      "step": "LEOS-flight-computer.step",
       "svg": "",
       "vrml": ""
     },
