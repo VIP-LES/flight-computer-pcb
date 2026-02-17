@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 2.92,
+          "width": 1.27
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -65,7 +65,23 @@
       ],
       "drc_exclusions": [
         [
-          "silk_overlap|130000000|50649238|4e1fa2a1-0219-4bcb-917c-83ddafbf02f9|92f2cda6-f12b-4042-8176-b1ebd577c5d7",
+          "net_conflict|123525000|72365000|39964c85-1dec-4829-82f9-87db177a0101|00000000-0000-0000-0000-000000000000",
+          "The SOIC version has no exposed pad."
+        ],
+        [
+          "net_conflict|132475000|70730000|0f048bba-e992-4082-b605-597fd50f4c5e|00000000-0000-0000-0000-000000000000",
+          "The SOIC version has no exposed pad."
+        ],
+        [
+          "silk_overlap|110385094|54078256|4e1fa2a1-0219-4bcb-917c-83ddafbf02f9|92f2cda6-f12b-4042-8176-b1ebd577c5d7",
+          ""
+        ],
+        [
+          "silk_overlap|111227544|54302850|6c9cfe6c-bda4-4bf4-b735-12e51ab8e64d|92f2cda6-f12b-4042-8176-b1ebd577c5d7",
+          ""
+        ],
+        [
+          "unconnected_items|173020000|133620000|F.Cu|4|cfd99edd-fdae-4865-9548-f97b1e16e64b|be76e0a3-bb03-49d6-b0b2-2d9d6c16ca72",
           ""
         ]
       ],
@@ -133,7 +149,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -146,7 +162,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -198,7 +214,12 @@
       ],
       "track_widths": [
         0.0,
-        0.25
+        0.25,
+        0.5,
+        1.0,
+        2.0,
+        2.25,
+        2.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -482,7 +503,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.18,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -497,6 +518,25 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.1,
+        "name": "5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.75,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_width": 0.25,
+        "name": "CAN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25
       }
     ],
     "meta": {
@@ -511,11 +551,11 @@
       },
       {
         "netclass": "CAN",
-        "pattern": "/CAN+"
+        "pattern": "/CANbus/CAN+"
       },
       {
         "netclass": "CAN",
-        "pattern": "/CAN-"
+        "pattern": "/CANbus/CAN-"
       }
     ]
   },
@@ -560,7 +600,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -572,13 +612,13 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -590,12 +630,18 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
           "show": false
         },
         {
@@ -612,20 +658,44 @@
         },
         {
           "group_by": false,
+          "label": "Digikey",
+          "name": "Digikey",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
           "show": false
         },
         {
           "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
           "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -674,6 +744,22 @@
     [
       "3703ddf2-8141-438d-86a8-1eaec9672d0d",
       "Root"
+    ],
+    [
+      "5dc8edec-1b34-44a9-a38e-40874919c30b",
+      "CANbus"
+    ],
+    [
+      "341d819d-3d1a-4f8b-94f1-4c6aaa16d806",
+      "Connectors"
+    ],
+    [
+      "3e2ca7cd-ca65-413f-a2b0-79d078b5f8c0",
+      "GPS"
+    ],
+    [
+      "8c820e78-6988-4dfc-9018-42beab5f1fbd",
+      "IO Headers"
     ]
   ],
   "text_variables": {}
