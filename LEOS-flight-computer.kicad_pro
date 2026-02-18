@@ -73,16 +73,16 @@
           "The SOIC version has no exposed pad."
         ],
         [
-          "silk_overlap|110385094|54078256|4e1fa2a1-0219-4bcb-917c-83ddafbf02f9|92f2cda6-f12b-4042-8176-b1ebd577c5d7",
-          ""
-        ],
-        [
           "silk_overlap|111227544|54302850|6c9cfe6c-bda4-4bf4-b735-12e51ab8e64d|92f2cda6-f12b-4042-8176-b1ebd577c5d7",
           ""
         ],
         [
-          "unconnected_items|173020000|133620000|F.Cu|4|cfd99edd-fdae-4865-9548-f97b1e16e64b|be76e0a3-bb03-49d6-b0b2-2d9d6c16ca72",
+          "silk_overlap|147730198|52007009|4e1fa2a1-0219-4bcb-917c-83ddafbf02f9|92f2cda6-f12b-4042-8176-b1ebd577c5d7",
           ""
+        ],
+        [
+          "unconnected_items|173020000|113300000|F.Cu|4|be76e0a3-bb03-49d6-b0b2-2d9d6c16ca72|cfd99edd-fdae-4865-9548-f97b1e16e64b",
+          "Connected internally"
         ]
       ],
       "meta": {
@@ -759,7 +759,7 @@
     ],
     [
       "8c820e78-6988-4dfc-9018-42beab5f1fbd",
-      "IO Headers"
+      "IO"
     ]
   ],
   "text_variables": {}

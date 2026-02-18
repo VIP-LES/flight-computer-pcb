@@ -7,7 +7,7 @@
 	(title_block
 		(title "LEOS Flight Computer")
 		(date "2026-02-17")
-		(rev "2.1")
+		(rev "2.2")
 		(company "VIP Lightning From the Edge of Space")
 	)
 	(lib_symbols
@@ -1976,7 +1976,7 @@
 	)
 	(text "UART connects opposite polarity."
 		(exclude_from_sim no)
-		(at 198.882 82.55 0)
+		(at 198.12 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2091,10 +2091,6 @@
 		(uuid "f7cdd7a5-ce08-4488-bb16-61bd22e857ed")
 	)
 	(no_connect
-		(at 166.37 114.3)
-		(uuid "089f2d5e-812b-4f25-aeb5-7cb2d76fbc93")
-	)
-	(no_connect
 		(at 135.89 119.38)
 		(uuid "26df90c6-acc5-4035-a6bc-352ed4e17cc5")
 	)
@@ -2111,20 +2107,12 @@
 		(uuid "7f0c582a-b50c-445d-8e93-cd60346c5c1a")
 	)
 	(no_connect
-		(at 166.37 124.46)
-		(uuid "85d70e0f-7452-4801-bf6d-89a97bd69198")
-	)
-	(no_connect
 		(at 166.37 106.68)
 		(uuid "86f553b6-e2e1-4dd0-91f8-23a54fd939d5")
 	)
 	(no_connect
 		(at 135.89 93.98)
 		(uuid "97fd062d-7b32-43c8-bd47-d36de7b7e08d")
-	)
-	(no_connect
-		(at 166.37 121.92)
-		(uuid "a37bee60-c085-4149-847e-c2d891b537af")
 	)
 	(no_connect
 		(at 135.89 111.76)
@@ -2153,10 +2141,6 @@
 	(no_connect
 		(at 135.89 114.3)
 		(uuid "dbb01734-e586-48a8-9044-b13f4e20d436")
-	)
-	(no_connect
-		(at 166.37 119.38)
-		(uuid "ea32f4dc-35bf-4767-9700-e1cc7f0350ed")
 	)
 	(no_connect
 		(at 135.89 121.92)
@@ -2201,16 +2185,6 @@
 			(type default)
 		)
 		(uuid "02b83de6-5d8f-40c0-94ea-506d50952e20")
-	)
-	(wire
-		(pts
-			(xy 157.48 119.38) (xy 166.37 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0447bbd6-0cbe-4479-9062-0667bcf34ca0")
 	)
 	(wire
 		(pts
@@ -2261,6 +2235,16 @@
 			(type default)
 		)
 		(uuid "127cd269-d14f-4653-ae94-e35df48ecec1")
+	)
+	(wire
+		(pts
+			(xy 157.48 119.38) (xy 215.9 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d7c9ad-0e7e-4c32-a310-ae989700ac73")
 	)
 	(wire
 		(pts
@@ -2374,7 +2358,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 121.92) (xy 166.37 121.92)
+			(xy 157.48 121.92) (xy 215.9 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2444,7 +2428,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 83.82) (xy 181.61 83.82)
+			(xy 157.48 83.82) (xy 215.9 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2464,16 +2448,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 86.36) (xy 196.85 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d7baffe-4891-487e-abcd-6dcde5d564e5")
-	)
-	(wire
-		(pts
 			(xy 96.52 104.14) (xy 144.78 104.14)
 		)
 		(stroke
@@ -2481,16 +2455,6 @@
 			(type default)
 		)
 		(uuid "62e06d5f-457a-4765-8f5f-37344e4bc5b9")
-	)
-	(wire
-		(pts
-			(xy 157.48 86.36) (xy 196.85 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "639389c3-6ce4-4b4f-b09d-dd8abc61c3a7")
 	)
 	(wire
 		(pts
@@ -2571,36 +2535,6 @@
 			(type default)
 		)
 		(uuid "7f58afec-1450-4556-9506-dd663e2af132")
-	)
-	(wire
-		(pts
-			(xy 181.61 83.82) (xy 181.61 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "830c47ff-bf41-46ce-983b-28b54a83a3f1")
-	)
-	(wire
-		(pts
-			(xy 213.36 86.36) (xy 215.9 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85e8231b-672a-411f-ac31-2e21228b9201")
-	)
-	(wire
-		(pts
-			(xy 196.85 83.82) (xy 215.9 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85f37e62-cd88-45e5-a515-ccc58febc813")
 	)
 	(wire
 		(pts
@@ -2694,26 +2628,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 85.09) (xy 213.36 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b38ba7d5-0221-4822-a9ed-cfd1b886ae8a")
-	)
-	(wire
-		(pts
-			(xy 181.61 85.09) (xy 213.36 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd052c58-56f1-441c-acdd-0766c8cfd9e3")
-	)
-	(wire
-		(pts
 			(xy 158.75 81.28) (xy 158.75 91.44)
 		)
 		(stroke
@@ -2721,6 +2635,16 @@
 			(type default)
 		)
 		(uuid "bee6c572-11be-4240-a55c-21397f6949b2")
+	)
+	(wire
+		(pts
+			(xy 196.85 114.3) (xy 196.85 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5fe210d-f876-47f6-85da-6420c9fba3bb")
 	)
 	(wire
 		(pts
@@ -2751,6 +2675,16 @@
 			(type default)
 		)
 		(uuid "c9abdf2b-558b-47ef-930b-0968b7b50f6d")
+	)
+	(wire
+		(pts
+			(xy 157.48 124.46) (xy 215.9 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdcb54be-92fb-479d-81e0-e43f206075be")
 	)
 	(wire
 		(pts
@@ -2814,16 +2748,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 124.46) (xy 166.37 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e09bc4d8-0c56-41ae-bee0-f6b3b92b11e7")
-	)
-	(wire
-		(pts
 			(xy 158.75 111.76) (xy 158.75 116.84)
 		)
 		(stroke
@@ -2874,6 +2798,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 128.27) (xy 215.9 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f16a7110-e410-4b77-863b-e7fd5913c349")
+	)
+	(wire
+		(pts
 			(xy 158.75 91.44) (xy 158.75 99.06)
 		)
 		(stroke
@@ -2914,6 +2848,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 86.36) (xy 215.9 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb999fd2-0597-4244-9c05-16673aa7ec19")
+	)
+	(wire
+		(pts
 			(xy 144.78 86.36) (xy 143.51 86.36)
 		)
 		(stroke
@@ -2924,7 +2868,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 114.3) (xy 166.37 114.3)
+			(xy 157.48 114.3) (xy 196.85 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2933,7 +2877,7 @@
 		(uuid "fea4df55-bef2-44ee-a114-29424c1ee021")
 	)
 	(label "GPIO11{slash}SPI0.SCK"
-		(at 215.9 120.65 180)
+		(at 215.9 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2962,8 +2906,38 @@
 		)
 		(uuid "4b2b95b7-d475-4b5e-b60d-d69983107387")
 	)
+	(label "GPIO20"
+		(at 166.37 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4bcc11c5-6268-482b-a810-f07d71144f97")
+	)
+	(label "GPIO16"
+		(at 166.37 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e667876-b6dd-47f1-9092-fe7d88288633")
+	)
+	(label "GPIO21"
+		(at 166.37 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f9c7bfc-a770-4784-999d-849a82769d2c")
+	)
 	(label "GPIO8{slash}SPI0.CE0"
-		(at 215.9 128.27 180)
+		(at 215.9 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2993,7 +2967,7 @@
 		(uuid "a0415c2d-9994-4e4d-9d85-fbbb0fa68b09")
 	)
 	(label "GPIO9{slash}SPI0.MISO"
-		(at 215.9 125.73 180)
+		(at 215.9 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3013,7 +2987,7 @@
 		(uuid "d03df549-1655-4254-9945-e359a3e1b1c5")
 	)
 	(label "GPIO10{slash}SPI0.MOSI"
-		(at 215.9 123.19 180)
+		(at 215.9 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3021,6 +2995,16 @@
 			(justify right bottom)
 		)
 		(uuid "d6e963f7-130e-4b6f-b01c-7ada723a8d23")
+	)
+	(label "GPIO12"
+		(at 166.37 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea31d845-3679-46b4-87e2-d2b5f04d3418")
 	)
 	(label "GPIO10{slash}SPI0.MOSI"
 		(at 135.89 99.06 180)
@@ -3174,28 +3158,6 @@
 			)
 		)
 	)
-	(global_label "GPIO21{slash}PCM.DOUT"
-		(shape input)
-		(at 166.37 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "41be16bb-b215-43e8-a146-3cc875066342")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.0748 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO22"
 		(shape input)
 		(at 135.89 93.98 180)
@@ -3328,28 +3290,6 @@
 			)
 		)
 	)
-	(global_label "GPIO12{slash}PWM0"
-		(shape input)
-		(at 166.37 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a458d9c5-b976-4ed3-8c61-8e64b75e2d09")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.9623 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO13{slash}PWM1"
 		(shape input)
 		(at 135.89 116.84 180)
@@ -3434,50 +3374,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO20{slash}PCM.DIN"
-		(shape input)
-		(at 166.37 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c703f766-2689-4810-a255-9f0311414a95")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.3815 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO16"
-		(shape input)
-		(at 166.37 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cba60e45-8636-4276-a451-c33a57c3506e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.2495 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3839,7 +3735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 117.856 73.914 90)
 			(effects
 				(font
@@ -3857,7 +3753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805"
 			(at 116.84 73.66 0)
 			(effects
 				(font
@@ -3866,7 +3762,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MCT06030C4701FP500"
+		(property "MPN" "CRCW08054K70FKEA"
 			(at 116.84 73.66 0)
 			(effects
 				(font
@@ -3875,7 +3771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay"
+		(property "Manufacturer" "Vishay Dale"
 			(at 116.84 73.66 0)
 			(effects
 				(font
@@ -3884,7 +3780,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23162"
+		(property "LCSC" ""
 			(at 116.84 73.66 0)
 			(effects
 				(font
@@ -3893,7 +3789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "MCT0603-4.70K-CFCT-ND"
+		(property "Digikey" "541-4.70KCCT-ND"
 			(at 116.84 73.66 0)
 			(effects
 				(font
@@ -4594,7 +4490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 126.746 73.914 90)
 			(effects
 				(font
@@ -4612,7 +4508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "4.7 kOhms ±1% 0.25W, 1/4W Chip Resistor 0805"
 			(at 125.73 73.66 0)
 			(effects
 				(font
@@ -4621,7 +4517,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MCT06030C4701FP500"
+		(property "MPN" "CRCW08054K70FKEA"
 			(at 125.73 73.66 0)
 			(effects
 				(font
@@ -4630,7 +4526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay"
+		(property "Manufacturer" "Vishay Dale"
 			(at 125.73 73.66 0)
 			(effects
 				(font
@@ -4639,7 +4535,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23162"
+		(property "LCSC" ""
 			(at 125.73 73.66 0)
 			(effects
 				(font
@@ -4648,7 +4544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "MCT0603-4.70K-CFCT-ND"
+		(property "Digikey" "541-4.70KCCT-ND"
 			(at 125.73 73.66 0)
 			(effects
 				(font
@@ -4779,7 +4675,7 @@
 			)
 		)
 		(pin "GPS_RX" bidirectional
-			(at 215.9 86.36 180)
+			(at 215.9 83.82 180)
 			(uuid "7e5b5e8e-20da-457c-9e95-95fd15a60f69")
 			(effects
 				(font
@@ -4809,7 +4705,7 @@
 			)
 		)
 		(pin "GPS_TX" bidirectional
-			(at 215.9 83.82 180)
+			(at 215.9 86.36 180)
 			(uuid "49ec977b-3c8b-420e-9c4c-3e84a7840d12")
 			(effects
 				(font
@@ -4940,7 +4836,7 @@
 	)
 	(sheet
 		(at 215.9 110.49)
-		(size 24.13 19.05)
+		(size 24.13 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4954,7 +4850,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "8c820e78-6988-4dfc-9018-42beab5f1fbd")
-		(property "Sheetname" "IO Headers"
+		(property "Sheetname" "IO"
 			(at 215.9 109.7784 0)
 			(effects
 				(font
@@ -4964,7 +4860,7 @@
 			)
 		)
 		(property "Sheetfile" "io.kicad_sch"
-			(at 215.9 130.1246 0)
+			(at 215.9 144.0946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4973,7 +4869,7 @@
 			)
 		)
 		(pin "CS" bidirectional
-			(at 215.9 128.27 180)
+			(at 215.9 140.97 180)
 			(uuid "ed77f876-ece3-47d7-94ea-9864117b58f2")
 			(effects
 				(font
@@ -4983,7 +4879,7 @@
 			)
 		)
 		(pin "MISO" bidirectional
-			(at 215.9 125.73 180)
+			(at 215.9 138.43 180)
 			(uuid "f0a5e6cc-0dd8-4d7f-83a5-09b1d2e121b5")
 			(effects
 				(font
@@ -4993,7 +4889,7 @@
 			)
 		)
 		(pin "MOSI" bidirectional
-			(at 215.9 123.19 180)
+			(at 215.9 135.89 180)
 			(uuid "eee4b07f-798e-4673-9cc8-e97472f9124f")
 			(effects
 				(font
@@ -5003,7 +4899,7 @@
 			)
 		)
 		(pin "SCK" bidirectional
-			(at 215.9 120.65 180)
+			(at 215.9 133.35 180)
 			(uuid "49eb083d-e7ce-4201-8155-19594dc42dd4")
 			(effects
 				(font
@@ -5025,6 +4921,46 @@
 		(pin "SDA" bidirectional
 			(at 215.9 113.03 180)
 			(uuid "76f2961c-cb4c-4d3b-a65c-4597a0021ed3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GREEN_LED" input
+			(at 215.9 119.38 180)
+			(uuid "74253685-5c16-4dd9-9820-3f702afae917")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RED_LED" input
+			(at 215.9 124.46 180)
+			(uuid "a5e3c870-6d96-450e-998c-44542d729121")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "YELLOW_LED" input
+			(at 215.9 121.92 180)
+			(uuid "4e0f9766-538e-4556-b348-6e8e64ee79a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "nBTN" input
+			(at 215.9 128.27 180)
+			(uuid "87536c18-03e4-4fde-858b-8bc6892ed112")
 			(effects
 				(font
 					(size 1.27 1.27)
